@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WineSale - Winery Store</title>
+
+    <!-- Project: WineSale Blockchain Application -->
+    <!-- Authors: Natoli Mayu, Khadija, Aditya -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>WineSale Winery</h1>
+       
+
+        <!-- Display the winery picture below the main heading -->
+        <img src="../images/winery.jpg"
+        alt="Wine winery"
+         class="winery-image">
+
+
+        <p>Welcome to our online wine store</p>
+
+    </header>
+
+    <main>
+        <section class="wine-card">
+            <h2>Premium Red Wine</h2>
+            <!-- Display the red wine product picture -->
+            <img src="../images/red-wine.jpg"
+            alt="Premium Red Wine"
+            class="wine-image">
+
+            <p>Price: <span id="price">Loading...</span> ETH per bottle</p>
+            <p>Available Stock: <span id="stock">Loading...</span></p>
+            <p>Your ETH Balance: <span id="balance">Loading...</span> ETH</p>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" value="1">
+
+            <button id="buyButton">Buy Wine</button>
+
+            <p id="message"></p>
+            <p id="rsaStatus">RSA verification: Not started</p>
+        </section>
+
+        <section class="transactions">
+            <h2>Transaction History</h2>
+            <div id="transactionList">
+                Loading transactions...
+            </div>
+        </section>
+
+        <section class="transactions">
+            <h2>Winery Admin</h2>
+            <p>Manage customer orders and shipping.</p>
+            <div id="adminMessage"></div>
+            <div id="adminOrderList">
+                Loading orders...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>WineSale Blockchain Demo</p>
+    </footer>
+
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

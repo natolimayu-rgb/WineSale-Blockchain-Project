@@ -1,0 +1,12 @@
+# Ignore installed packages
+node_modules/
+
+# Ignore generated contract build files
+build/
+
+# Ignore environment files and secrets
+.env
+.env.*
+
+# Ignore Mac system files
+.DS_Store

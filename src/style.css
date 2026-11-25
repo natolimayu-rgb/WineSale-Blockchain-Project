@@ -1,0 +1,95 @@
+/* Project: WineSale Blockchain Application */
+/* Authors: Natoli Mayu, Khadija, Aditya */
+/* Description: Styles the wine store, purchase interface, and transaction sections. */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E8D9C4;
+    color: #493226;
+}
+
+header {
+    background-color: #493226;
+    color: #F8F1E7;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header p {
+    color: #E5CCAD;
+}
+
+main {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 20px;
+}
+
+.wine-card,
+.transactions {
+    background-color: #F8F1E7;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(73, 50, 38, 0.12);
+}
+
+h2 {
+    color: #654632;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #C5A98B;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+button {
+    background-color: #493226;
+    color: #F8F1E7;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #76563F;
+}
+
+#message {
+    color: #654632;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #493226;
+    color: #E5CCAD;
+    text-align: center;
+    padding: 18px;
+}
+/* Style the winery picture */
+.winery-image {
+    width: 100%;             /* Use the full available width */
+    max-height: 300px;       /* Limit the image height */
+    object-fit: cover;       /* Crop the image without stretching it */
+    border-radius: 12px;     /* Round the corners */
+    display: block;          /* Put the image on its own line */
+    margin: 15px auto;       /* Center the image and add spacing */
+}
+
+/* Style the red wine product picture */
+.wine-image {
+    width: 220px;            /* Set the image width */
+    height: 280px;           /* Set the image height */
+    object-fit: cover;       /* Crop the image without stretching it */
+    border-radius: 12px;     /* Round the corners */
+    display: block;          /* Put the image on its own line */
+    margin: 15px auto;       /* Center the image and add spacing */
+}

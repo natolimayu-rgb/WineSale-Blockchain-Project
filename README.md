@@ -110,7 +110,7 @@ cd WineSale-Blockchain-Project
 Start the local website:
 
 ```bash
-npx lite-server
+npm start
 ```
 
 Open the following address in your browser:
@@ -183,7 +183,7 @@ When the contract is deployed:
 
 - Check that Ganache is running.
 - Check that the smart contract has been deployed.
-- Check that `npx lite-server` is running.
+- Check that `npm start` is running.
 - Confirm that you are using the correct website address.
 
 **Problem: Purchase fails**

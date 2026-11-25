@@ -1,14 +1,20 @@
+
 {
   "name": "winesaledapp",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A blockchain-based wine store using Ethereum, Solidity, and Web3.js",
   "scripts": {
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "wine-store"
+  ],
+  "author": "Natoli Mayu, Khadija, Aditya",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "lite-server": "^2.6.1",
     "web3": "^1.10.0"

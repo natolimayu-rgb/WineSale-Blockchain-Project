@@ -1,0 +1,7 @@
+{
+    "server": {
+        "baseDir": "./"
+    },
+    "startPath": "/src/index.html",
+    "port": 3000
+}
